@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./images/icon.png" type="image/x-icon">
+
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/stars.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/scroll.css">
+    <title>Kishan</title>
 
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
@@ -16,15 +21,16 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 </head>
 
-<body>
-    <div class="stars">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-    </div>
+<body class=" js-fullheight">
+    
 
     <div class="page js-fullheight">
         <header id="header" class=" js-fullheight">
+            <div class="stars">
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+            </div>
             <div class="container js-fullheight">
                 <div class="row js-fullheight">
                     <div class="col-6 text-center js-fullheight">
@@ -42,6 +48,7 @@
                                     <ion-icon size="large" name="logo-stackoverflow"></ion-icon>
                                 </ul>
                                 <p></p>
+                                <a href="#profile" class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
                             </div>
 
                         </div>
@@ -51,9 +58,11 @@
 
         </header>
     </div>
+    <div id="profile" class="profile">
+        <img src="./images/icon.png" alt="">
+    </div>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>
