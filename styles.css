@@ -2,6 +2,11 @@ html{
     overflow-y: scroll;
 }
 
+body{
+    margin: 0;
+    min-width: 340px
+}
+
 #header {
     background-color: transparent;
     background-size: cover;
@@ -141,3 +146,16 @@ ion-icon {
   .social-icons{
       padding: 0;
   }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+ion-icon {
+    font-size: 32px !important;
+}
