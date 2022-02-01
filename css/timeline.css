@@ -102,7 +102,7 @@
     
     /* Full-width eContainers */
     .eContainer {
-    width: 100%;
+    width: auto;
     padding-left: 70px;
     padding-right: 25px;
     }
@@ -124,6 +124,14 @@
     .right {
     left: 0%;
     }
+    .left{
+        text-align: left;
+    }
+    
+    .expHead{
+        justify-content: left !important;
+    }
+
   }
 
   /* .left .content{
