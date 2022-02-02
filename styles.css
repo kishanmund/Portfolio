@@ -269,6 +269,7 @@ ion-icon {
 
 .experiencce {
     background-color: white;
+    min-width: 400px;
 }
 
 
@@ -290,7 +291,7 @@ ion-icon {
 .summary {
     display: flex;
     justify-content: center;
-
+    min-width: 400px;
 }
 
 .profileDetails {
@@ -340,6 +341,7 @@ ion-icon {
 
 .personalDetails {
     display: flex;
+    min-width: 400px;
 }
 
 /* Common CSS */

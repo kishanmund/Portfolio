@@ -21,6 +21,7 @@
     .col-6 {
         margin-left: 16.66667%;
     }
+    
 }
 
 @media (min-width: 992px){
@@ -28,6 +29,38 @@
         width: 66.66667%;
     }
 }
+
+@media (max-width: 992px){
+    .summary {
+        flex-wrap: wrap;
+    }
+
+    .aboutMe{
+        width: unset;
+        padding: 0;
+        min-width: 400px;
+    }
+
+    .personalDetails{
+        display: block;
+        width: unset;
+    }
+
+    .profileDetails{
+        width: unset;
+        padding: 10px 20px;
+    }
+
+    .skills{
+        width: unset;
+    }
+
+    .info{
+        width: 100%;
+    }
+}
+
+
 
 @media (min-width: 0px) and (max-width: 600px) {
     .display-table h1{
@@ -53,5 +86,5 @@
     ion-icon {
         font-size: 16px !important;
       }
-    
+      
 }
